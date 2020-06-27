@@ -16,6 +16,15 @@ import Teko from './FontMods/Teko'
 import Poppins from './FontMods/Poppins'
 import Pangolin from './FontMods/Pangolin'
 import Noto from './FontMods/Noto'
+import Lato from './FontMods/Lato'
+import Ubuntu from './FontMods/Ubuntu'
+import PTSans from './FontMods/PTSans'
+import Notable from './FontMods/Notable'
+import Piedra from './FontMods/Piedra'
+import Yellowtail from './FontMods/Yellowtail'
+import FiraSans from './FontMods/FiraSans'
+import Oxygen from './FontMods/Oxygen'
+import Saira from './FontMods/Saira'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 
 import './App.css';
@@ -31,7 +40,16 @@ class App extends React.Component{
       { value : "It is a pretty day" , font : "Teko" , route : "/teko" },
       { value : "It is a pretty day" , font : "Poppins" , route : "/poppins" },
       { value : "It is a pretty day" , font : "Pangolin" , route : "/pangolin" },
-      { value : "It is a pretty day" , font : "Noto Sans" , route : "/noto" }
+      { value : "It is a pretty day" , font : "Noto" , route : "/noto" },
+      { value : "It is a pretty day" , font : "Lato" , route : "/lato" },
+      { value : "It is a pretty day" , font : "Ubuntu" , route : "/ubuntu" },
+      { value : "It is a pretty day" , font : "PT Sans, PT Serif" , route : "/ptsans" },
+      { value : "It is a pretty day" , font : "Notable" , route : "/notable" },
+      { value : "It is a pretty day" , font : "Piedra" , route : "/piedra" },
+      { value : "It is a pretty day" , font : "Yellowtail" , route : "/yellowtail" },
+      { value : "It is a pretty day" , font : "Fira Sans" , route : "/firasans" },
+      { value : "It is a pretty day" , font : "Oxygen" , route : "/oxygen" },
+      { value : "It is a pretty day" , font : "Saira" , route : "/saira" }
     ],
     searchFont : ""
   }
@@ -67,6 +85,15 @@ class App extends React.Component{
             <Route path = {this.state.fonts[6].route} component = {Poppins}></Route>
             <Route path = {this.state.fonts[7].route} component = {Pangolin}></Route>
             <Route path = {this.state.fonts[8].route} component = {Noto}></Route>
+            <Route path = {this.state.fonts[9].route} component = {Lato}></Route>
+            <Route path = {this.state.fonts[10].route} component = {Ubuntu}></Route>
+            <Route path = {this.state.fonts[11].route} component = {PTSans}></Route>
+            <Route path = {this.state.fonts[12].route} component = {Notable}></Route>
+            <Route path = {this.state.fonts[13].route} component = {Piedra}></Route>
+            <Route path = {this.state.fonts[14].route} component = {Yellowtail}></Route>
+            <Route path = {this.state.fonts[15].route} component = {FiraSans}></Route>
+            <Route path = {this.state.fonts[16].route} component = {Oxygen}></Route>
+            <Route path = {this.state.fonts[17].route} component = {Saira}></Route>
           </Switch>
           <Footer/>
         </div>

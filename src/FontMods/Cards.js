@@ -32,7 +32,7 @@ const cards = (props) => {
 				</Col>
 				<Col md = {8}>	
 					<Col md = {12}>
-					<Link to = {props.route}>
+					<Link to = {props.route} className = "links">
 						<Card className = "Cards">
 					  		<Card.Body>
 					    		<Card.Title>{props.font}</Card.Title>

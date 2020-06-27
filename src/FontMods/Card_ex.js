@@ -17,7 +17,7 @@ const FontList = (props) => {
 			route = {data.route}
 			component = {data.component}
 		/>
-	})
+	}).sort()
 	return(
 		<div>
 			{font}
