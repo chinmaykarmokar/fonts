@@ -1,0 +1,233 @@
+/*Cookie Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+
+/*Niconne Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Niconne@900&display=swap');
+
+/*Sriracha Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+/*Teko Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+
+/*Body Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+/*Roboto Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+/*Montserrat Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&display=swap');
+
+/*Poppins Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/*Pangolin Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+
+/*Noto Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+HK&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR&display=swap');
+
+.AllFonts{
+	overflow-x:hidden !important;
+}
+
+.Cards{
+	border: none;
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.4);
+	margin: 15px auto;
+	padding: 10px;
+	border-radius: 20px;
+	text-align: left;
+}
+
+.Cards:hover{
+	box-shadow: 0px 0px 15px rgba(0,0,0,0.4);
+	transition: 0.3s;
+}
+
+.f_prev{
+	text-align: left;
+}
+
+@media screen and (min-width: 320px) {
+  .MyCard{
+  	border: none;
+  	box-shadow: 0px 0px 10px rgba(0,0,0,0.4);
+  	padding: 10px;
+  	border-radius: 20px;
+  	text-align: left;
+  	width: 60% !important;
+  	margin-left: -10px !important;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .MyCard{
+  	border: none;
+  	box-shadow: 0px 0px 10px rgba(0,0,0,0.4);
+  	padding: 10px;
+  	border-radius: 20px;
+  	text-align: left;
+  	width: 93% !important;
+  	margin-left: -5px !important;	
+  }
+}
+
+@media screen and (min-width: 425px) {
+  .MyCard{
+  	border: none;
+  	box-shadow: 0px 0px 10px rgba(0,0,0,0.4);
+  	padding: 10px;
+  	border-radius: 20px;
+  	text-align: left;
+  	width: 100% !important;
+  	margin-left: 0px !important;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .MyCard{
+  	border: none;
+  	box-shadow: 0px 0px 10px rgba(0,0,0,0.4);
+  	padding: 10px;
+  	border-radius: 20px;
+  	text-align: left;
+  	width: 100% !important;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .MyCard{
+  	border: none;
+  	box-shadow: 0px 0px 10px rgba(0,0,0,0.4);
+  	padding: 10px;
+  	border-radius: 20px;
+  	text-align: left;
+  	width: 100% !important;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .MyCard{
+  	border: none;
+  	box-shadow: 0px 0px 10px rgba(0,0,0,0.4);
+  	padding: 10px;
+  	border-radius: 20px;
+  	text-align: left;
+  	width: 100% !important;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .MyCard{
+  	border: none;
+  	box-shadow: 0px 0px 10px rgba(0,0,0,0.4);
+  	padding: 10px;
+  	border-radius: 20px;
+  	text-align: left;
+  	width: 100% !important;
+  }
+}
+
+.Info{
+	border: none;
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.4);
+	background-color: #b3b3ff;
+	color: #fff;
+	margin: 15px auto;
+	padding: 10px;
+	border-radius: 20px;
+	text-align: left;
+}
+
+.Info:hover{
+	box-shadow: 0px 0px 15px rgba(0,0,0,0.4);
+	transition: 0.3s;
+}
+
+.names{
+	color: #fff !important;
+}
+
+.search{
+	
+	background-color: #f0f5f5;
+	padding: 20px;
+	border: none;
+	box-shadow: 0px 3px 10px -3px rgba(0,0,0,0.5);
+
+}
+
+.search1{
+	background-color: #00cccc;
+}
+
+.toggs{
+	border: none;
+	font-weight: bold;
+}
+
+.input_field{
+	height: 30px;
+	width: 225px;
+	border: none;
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.4);
+	border-radius: 10px;
+	padding: 10px;
+	text-align: center;
+	font-family: Ubuntu;
+}
+
+.preview{
+	height: 50px;
+	width: 270px;
+	border: none;
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.4);
+	border-radius: 10px;
+	padding: 10px;
+	text-align: center;
+	font-family: Ubuntu;
+}
+
+.fontBody{
+	padding: 30px;
+	background-image: linear-gradient(to right, #fff , #ffb833);
+	text-align: left;
+	font-family: Ubuntu;
+}
+
+.f_work{
+	text-align: left;
+	padding: 30px;
+	font-family: Ubuntu;
+}
+
+button{
+	border:none;
+	background-color: #fff;
+	padding: 10px;
+	border-radius: 5px;
+	color: blue;
+}
+button:hover{
+	border:none;
+	background-color: #e6e6e6;
+	color: blue;
+}
