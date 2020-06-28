@@ -35,7 +35,7 @@ class Notable extends Component{
 	render(){
 		return(
 			<div className = "AllFonts">
-				<div className = "fontBody">
+				<div className = "fontBodynot">
 					<h1>Notable</h1>
 					<p>Designed by <b>Various Developers</b></p>
 					<br/>

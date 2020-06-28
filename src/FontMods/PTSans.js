@@ -43,7 +43,7 @@ class PTSans extends Component{
 	render(){
 		return(
 			<div className = "AllFonts">
-				<div className = "fontBody">
+				<div className = "fontBodypts">
 					<h1>PT Sans, PT Serif</h1>
 					<p>Designed by <b>ParaType</b></p>
 					<br/>

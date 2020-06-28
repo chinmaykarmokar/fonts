@@ -35,7 +35,7 @@ class Yellowtail extends Component{
 	render(){
 		return(
 			<div className = "AllFonts">
-				<div className = "fontBody">
+				<div className = "fontBodyye">
 					<h1>Yellowtail</h1>
 					<p>Designed by <b>Astigmatic</b></p>
 					<br/>

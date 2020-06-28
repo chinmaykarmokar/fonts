@@ -43,7 +43,7 @@ class FiraSans extends Component{
 	render(){
 		return(
 			<div className = "AllFonts">
-				<div className = "fontBody">
+				<div className = "fontBodyfi">
 					<h1>Fira Sans</h1>
 					<p>Designed by <b> Carrois Apostrophe</b></p>
 					<br/>

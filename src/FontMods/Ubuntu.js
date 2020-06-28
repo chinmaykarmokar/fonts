@@ -39,7 +39,7 @@ class Ubuntu extends Component{
 	render(){
 		return(
 			<div className = "AllFonts">
-				<div className = "fontBody">
+				<div className = "fontBodyub">
 					<h1>Ubuntu</h1>
 					<p>Designed by <b>Dalton Maag</b></p>
 					<br/>

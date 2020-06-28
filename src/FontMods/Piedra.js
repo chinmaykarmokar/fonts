@@ -35,7 +35,7 @@ class Piedra extends Component{
 	render(){
 		return(
 			<div className = "AllFonts">
-				<div className = "fontBody">
+				<div className = "fontBodypi">
 					<h1>Piedra</h1>
 					<p>Designed by <b>Sudtipos</b></p>
 					<br/>

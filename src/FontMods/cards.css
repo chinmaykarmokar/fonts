@@ -84,6 +84,90 @@
 @import url('https://fonts.googleapis.com/css2?family=Saira+Semi+Condensed&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Saira+Stencil+One&display=swap');
 
+/*Source Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Code&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap');
+
+/*IBM Plex Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
+
+/*Libre Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+39+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+39&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+39+Extended+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+128&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+39+Extended&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+128+Text&display=swap');
+
+/*Barlow Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed&display=swap');
+
+/*Archivo Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Archivo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+/*Archivo Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&display=swap');
+
+/*Cabin Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch&display=swap');
+
+/*Nanum Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&display=swap');
+
+/*Encode Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Expanded&display=swap');
+
+/*Alegreya Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+SC&display=swap');
+
+/*Bungee Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Outline&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Hairline&display=swap');
+
+/*Nova Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nova+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nova+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nova+Slim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nova+Flat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nova+Cut&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nova+Oval&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nova+Script&display=swap');
+
+/*Open Sans*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed&display=swap');
+
 .AllFonts{
 	overflow-x:hidden !important;
 }
@@ -113,7 +197,7 @@
   	padding: 10px;
   	border-radius: 20px;
   	text-align: left;
-  	width: 60% !important;
+  	width: 50% !important;
   	margin-left: -10px !important;
   }
 }
@@ -262,6 +346,152 @@ button:focus {
 .fontBody{
 	padding: 30px;
 	background-image: linear-gradient(to right, #fff , #ffb833);
+	text-align: left;
+	font-family: Ubuntu;
+}
+
+.fontBodyos{
+	padding: 30px;
+	background-image: linear-gradient(to right, #fff , #ffb3b3);
+	text-align: left;
+	font-family: Ubuntu;
+}
+
+.fontBodyn{
+	padding: 30px;
+	background-image: linear-gradient(to right, #fff , #9933ff);
+	text-align: left;
+	font-family: Ubuntu;
+}
+
+.fontBodyb{
+	padding: 30px;
+	background-image: linear-gradient(to right, #fff , #00ff00);
+	text-align: left;
+	font-family: Ubuntu;
+}
+
+.fontBodyal{
+	padding: 30px;
+	background-image: linear-gradient(to right, #fff , #ffff00);
+	text-align: left;
+	font-family: Ubuntu;
+}
+
+.fontBodyen{
+	padding: 30px;
+	background-image: linear-gradient(to right, #fff , #cc3399);
+	text-align: left;
+	font-family: Ubuntu;
+}
+
+.fontBodyna{
+	padding: 30px;
+	background-image: linear-gradient(to right, #fff , #669999);
+	text-align: left;
+	font-family: Ubuntu;
+}
+
+.fontBodyca{
+	padding: 30px;
+	background-image: linear-gradient(to right, #fff , #cc80ff);
+	text-align: left;
+	font-family: Ubuntu;
+}
+
+.fontBodydm{
+	padding: 30px;
+	background-image: linear-gradient(to right, #fff , #ff5050);
+	text-align: left;
+	font-family: Ubuntu;
+}
+
+.fontBodyar{
+	padding: 30px;
+	background-image: linear-gradient(to right, #fff , #33cccc);
+	text-align: left;
+	font-family: Ubuntu;
+}
+
+.fontBodybar{
+	padding: 30px;
+	background-image: linear-gradient(to right, #fff , #ff4da6);
+	text-align: left;
+	font-family: Ubuntu;
+}
+
+.fontBodylib{
+	padding: 30px;
+	background-image: linear-gradient(to right, #fff , #ff3399);
+	text-align: left;
+	font-family: Ubuntu;
+}
+.fontBodyibm{
+	padding: 30px;
+	background-image: linear-gradient(to right, #fff , #99ff66);
+	text-align: left;
+	font-family: Ubuntu;
+}
+
+.fontBodyso{
+	padding: 30px;
+	background-image: linear-gradient(to right, #fff , #009900);
+	text-align: left;
+	font-family: Ubuntu;
+}
+
+.fontBodysai{
+	padding: 30px;
+	background-image: linear-gradient(to right, #fff , #0055ff);
+	text-align: left;
+	font-family: Ubuntu;
+}
+
+.fontBodyox{
+	padding: 30px;
+	background-image: linear-gradient(to right, #fff , #33cccc);
+	text-align: left;
+	font-family: Ubuntu;
+}
+
+.fontBodyfi{
+	padding: 30px;
+	background-image: linear-gradient(to right, #fff , #666699);
+	text-align: left;
+	font-family: Ubuntu;
+}
+
+.fontBodyye{
+	padding: 30px;
+	background-image: linear-gradient(to right, #fff , #ffff1a);
+	text-align: left;
+	font-family: Ubuntu;
+}
+
+.fontBodypi{
+	padding: 30px;
+	background-image: linear-gradient(to right, #fff , #ff0000);
+	text-align: left;
+	font-family: Ubuntu;
+}
+
+.fontBodynot{
+	padding: 30px;
+	background-image: linear-gradient(to right, #fff , #ff661a);
+	text-align: left;
+	font-family: Ubuntu;
+}
+
+.fontBodypts{
+	padding: 30px;
+	background-image: linear-gradient(to right, #fff , #ff3399);
+	text-align: left;
+	font-family: Ubuntu;
+}
+
+.fontBodyub{
+	padding: 30px;
+	background-image: linear-gradient(to right, #fff , #a64dff);
 	text-align: left;
 	font-family: Ubuntu;
 }

@@ -11,27 +11,27 @@ import Card from 'react-bootstrap/Card'
 import Tabs from 'react-bootstrap/Tabs'
 import Tab from 'react-bootstrap/Tab'
 
-class Saira extends Component{
+class Bungee extends Component{
 
 	state = {
 		showFonts : [
-			{value : "All work no play makes jack a dull boy" , family : "Saira Condensed" , css : "Saira+Condensed"},
-			{value : "All work no play makes jack a dull boy" , family : "Saira" , css : "Saira"},
-			{value : "All work no play makes jack a dull boy" , family : "Saira Extra Condensed" , css : "Saira+Extra+Condensed"},
-			{value : "All work no play makes jack a dull boy" , family : "Saira Semi Condensed" , css : "Saira+Semi+Condensed"},
-			{value : "All work no play makes jack a dull boy" , family : "Saira Stencil One" , css : "Saira+Stencil+One"}
-		],
+			{value : "All work no play makes jack a dull boy" , family : "Bungee" , css : "Bungee"},
+			{value : "All work no play makes jack a dull boy" , family : "Bungee Inline" , css : "Bungee+Inline"},
+			{value : "All work no play makes jack a dull boy" , family : "Bungee Shade" , css : "Bungee+Shade"},
+			{value : "All work no play makes jack a dull boy" , family : "Bungee Outline" , css : "Bungee+Outline"},
+			{value : "All work no play makes jack a dull boy" , family : "Bungee Hairline" , css : "Bungee+Hairline"}
+		],	
 		showMenu : false
 	}
 
 	handleInput = (e) => {
 		this.setState({
 			showFonts : [
-				{value : e.target.value , family : "Saira Condensed" , btn : "+ Select style"},
-				{value : e.target.value , family : "Saira" , btn : "+ Select style"},
-				{value : e.target.value , family : "Saira Extra Condensed" , btn : "+ Select style"},
-				{value : e.target.value , family : "Saira Semi Condensed" , btn : "+ Select style"},
-				{value : e.target.value , family : "Saira Stencil One" , btn : "+ Select style"}
+				{value : e.target.value , family : "Bungee" , btn : "+ Select style"},
+				{value : e.target.value , family : "Bungee Inline" , btn : "+ Select style"},
+				{value : e.target.value , family : "Bungee Shade" , btn : "+ Select style"},
+				{value : e.target.value , family : "Bungee Outline" , btn : "+ Select style"},
+				{value : e.target.value , family : "Bungee Hairline" , btn : "+ Select style"},
 			]
 		})
 	}
@@ -43,9 +43,9 @@ class Saira extends Component{
 	render(){
 		return(
 			<div className = "AllFonts">
-				<div className = "fontBodysai">
-					<h1>Saira</h1>
-					<p>Designed by <b>Omnibus-Type, Hector Gatti</b></p>
+				<div className = "fontBodyb">
+					<h1>Bungee</h1>
+					<p>Designed by <b>David Jonathan Ross</b></p>
 					<br/>
 					<hr/>
 					<br/>
@@ -97,44 +97,44 @@ class Saira extends Component{
 			showFonts : [
 				{
 					value : "All work no play makes jack a dull boy" , 
-				 	family : "Saira Condensed",
+				 	family : "Bungee",
 				 	src : "Source Code Pro",
 				 	b1 : "<",
 				 	b2 : ">",
-				 	css : "Saira+Condensed"
+				 	css : "Bungee"
 				},
 				{
 					value : "All work no play makes jack a dull boy" , 
-				 	family : "Saira",
+				 	family : "Bungee Inline",
 				 	src : "Source Code Pro", 
 				 	b1 : "<",
 				 	b2 : ">",
-				 	css : "Saira"
+				 	css : "Bungee+Inline"
 				},
 				{
 					value : "All work no play makes jack a dull boy" , 
-				 	family : "Saira Extra Condensed",
+				 	family : "Bungee Shade",
 				 	src : "Source Code Pro",
 				 	b1 : "<",
 				 	b2 : ">",
-				 	css : "Saira+Extra+Condensed"
+				 	css : "Bungee+Shade"
 				},
 				{
 					value : "All work no play makes jack a dull boy" , 
-				 	family : "Saira Semi Condensed",
+				 	family : "Bungee Outline",
 				 	src : "Source Code Pro",
 				 	b1 : "<",
 				 	b2 : ">",
-				 	css : "Saira+Semi+Condensed"
+				 	css : "Bungee+Outline"
 				},
 				{
 					value : "All work no play makes jack a dull boy" , 
-				 	family : "Saira Stencil One",
+				 	family : "Bungee Hairline",
 				 	src : "Source Code Pro",
 				 	b1 : "<",
 				 	b2 : ">",
-				 	css : "Saira+Stencil+One"
-				},
+				 	css : "Bungee+Hairline"
+				}
 			],
 			showMenu : false
 		}
@@ -190,4 +190,4 @@ class Saira extends Component{
 		}
 }
 
-export default Saira;
+export default Bungee;

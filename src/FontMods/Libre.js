@@ -11,15 +11,14 @@ import Card from 'react-bootstrap/Card'
 import Tabs from 'react-bootstrap/Tabs'
 import Tab from 'react-bootstrap/Tab'
 
-class Saira extends Component{
+class Libre extends Component{
 
 	state = {
 		showFonts : [
-			{value : "All work no play makes jack a dull boy" , family : "Saira Condensed" , css : "Saira+Condensed"},
-			{value : "All work no play makes jack a dull boy" , family : "Saira" , css : "Saira"},
-			{value : "All work no play makes jack a dull boy" , family : "Saira Extra Condensed" , css : "Saira+Extra+Condensed"},
-			{value : "All work no play makes jack a dull boy" , family : "Saira Semi Condensed" , css : "Saira+Semi+Condensed"},
-			{value : "All work no play makes jack a dull boy" , family : "Saira Stencil One" , css : "Saira+Stencil+One"}
+			{value : "All work no play makes jack a dull boy" , family : "Libre Baskerville" , css : "Libre+Baskerville"},
+			{value : "All work no play makes jack a dull boy" , family : "Libre Franklin" , css : "Libre+Franklin"},
+			{value : "All work no play makes jack a dull boy" , family : "Libre Caslon Display" , css : "Libre+Caslon+Display"},
+			{value : "All work no play makes jack a dull boy" , family : "Libre Caslon Text" , css : "Libre+Caslon+Text"}
 		],
 		showMenu : false
 	}
@@ -27,11 +26,10 @@ class Saira extends Component{
 	handleInput = (e) => {
 		this.setState({
 			showFonts : [
-				{value : e.target.value , family : "Saira Condensed" , btn : "+ Select style"},
-				{value : e.target.value , family : "Saira" , btn : "+ Select style"},
-				{value : e.target.value , family : "Saira Extra Condensed" , btn : "+ Select style"},
-				{value : e.target.value , family : "Saira Semi Condensed" , btn : "+ Select style"},
-				{value : e.target.value , family : "Saira Stencil One" , btn : "+ Select style"}
+				{value : e.target.value , family : "Libre Baskerville" , btn : "+ Select style"},
+				{value : e.target.value , family : "Libre Franklin" , btn : "+ Select style"},
+				{value : e.target.value , family : "Libre Caslon Display" , btn : "+ Select style"},
+				{value : e.target.value , family : "Libre Caslon Text" , btn : "+ Select style"}
 			]
 		})
 	}
@@ -43,9 +41,9 @@ class Saira extends Component{
 	render(){
 		return(
 			<div className = "AllFonts">
-				<div className = "fontBodysai">
-					<h1>Saira</h1>
-					<p>Designed by <b>Omnibus-Type, Hector Gatti</b></p>
+				<div className = "fontBodylib">
+					<h1>Libre</h1>
+					<p>Designed by <b>Impallari Type</b></p>
 					<br/>
 					<hr/>
 					<br/>
@@ -97,44 +95,36 @@ class Saira extends Component{
 			showFonts : [
 				{
 					value : "All work no play makes jack a dull boy" , 
-				 	family : "Saira Condensed",
+				 	family : "Libre Baskerville",
 				 	src : "Source Code Pro",
 				 	b1 : "<",
 				 	b2 : ">",
-				 	css : "Saira+Condensed"
+				 	css : "Libre+Baskerville"
 				},
 				{
 					value : "All work no play makes jack a dull boy" , 
-				 	family : "Saira",
+				 	family : "Libre Franklin",
 				 	src : "Source Code Pro", 
 				 	b1 : "<",
 				 	b2 : ">",
-				 	css : "Saira"
+				 	css : "Libre+Franklin"
 				},
 				{
 					value : "All work no play makes jack a dull boy" , 
-				 	family : "Saira Extra Condensed",
+				 	family : "Libre Caslon Display",
 				 	src : "Source Code Pro",
 				 	b1 : "<",
 				 	b2 : ">",
-				 	css : "Saira+Extra+Condensed"
+				 	css : "Libre+Caslon+Display"
 				},
 				{
 					value : "All work no play makes jack a dull boy" , 
-				 	family : "Saira Semi Condensed",
+				 	family : "Libre Caslon Text",
 				 	src : "Source Code Pro",
 				 	b1 : "<",
 				 	b2 : ">",
-				 	css : "Saira+Semi+Condensed"
-				},
-				{
-					value : "All work no play makes jack a dull boy" , 
-				 	family : "Saira Stencil One",
-				 	src : "Source Code Pro",
-				 	b1 : "<",
-				 	b2 : ">",
-				 	css : "Saira+Stencil+One"
-				},
+				 	css : "Libre+Caslon+Text"
+				}
 			],
 			showMenu : false
 		}
@@ -190,4 +180,4 @@ class Saira extends Component{
 		}
 }
 
-export default Saira;
+export default Libre;

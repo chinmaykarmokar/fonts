@@ -37,7 +37,7 @@ class Oxygen extends Component{
 	render(){
 		return(
 			<div className = "AllFonts">
-				<div className = "fontBody">
+				<div className = "fontBodyox">
 					<h1>Oxygen</h1>
 					<p>Designed by <b>Vernon Adams</b></p>
 					<br/>

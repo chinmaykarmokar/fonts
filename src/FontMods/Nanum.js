@@ -11,27 +11,25 @@ import Card from 'react-bootstrap/Card'
 import Tabs from 'react-bootstrap/Tabs'
 import Tab from 'react-bootstrap/Tab'
 
-class Saira extends Component{
+class Nanum extends Component{
 
 	state = {
 		showFonts : [
-			{value : "All work no play makes jack a dull boy" , family : "Saira Condensed" , css : "Saira+Condensed"},
-			{value : "All work no play makes jack a dull boy" , family : "Saira" , css : "Saira"},
-			{value : "All work no play makes jack a dull boy" , family : "Saira Extra Condensed" , css : "Saira+Extra+Condensed"},
-			{value : "All work no play makes jack a dull boy" , family : "Saira Semi Condensed" , css : "Saira+Semi+Condensed"},
-			{value : "All work no play makes jack a dull boy" , family : "Saira Stencil One" , css : "Saira+Stencil+One"}
-		],
+			{value : "All work no play makes jack a dull boy" , family : "Nanum Gothic" , css : "Nanum+Gothic"},
+			{value : "All work no play makes jack a dull boy" , family : "Nanum Gothic Coding" , css : "Nanum+Gothic+Coding"},
+			{value : "All work no play makes jack a dull boy" , family : "Nanum Pen Script" , css : "Nanum+Pen+Script"},
+			{value : "All work no play makes jack a dull boy" , family : "Nanum Brush Script" , css : "Nanum+Brush+Script"}
+		],	
 		showMenu : false
 	}
 
 	handleInput = (e) => {
 		this.setState({
 			showFonts : [
-				{value : e.target.value , family : "Saira Condensed" , btn : "+ Select style"},
-				{value : e.target.value , family : "Saira" , btn : "+ Select style"},
-				{value : e.target.value , family : "Saira Extra Condensed" , btn : "+ Select style"},
-				{value : e.target.value , family : "Saira Semi Condensed" , btn : "+ Select style"},
-				{value : e.target.value , family : "Saira Stencil One" , btn : "+ Select style"}
+				{value : e.target.value , family : "Nanum Gothic" , btn : "+ Select style"},
+				{value : e.target.value , family : "Nanum Gothic Coding" , btn : "+ Select style"},
+				{value : e.target.value , family : "Nanum Pen Script" , btn : "+ Select style"},
+				{value : e.target.value , family : "Nanum Brush Script" , btn : "+ Select style"},
 			]
 		})
 	}
@@ -43,9 +41,9 @@ class Saira extends Component{
 	render(){
 		return(
 			<div className = "AllFonts">
-				<div className = "fontBodysai">
-					<h1>Saira</h1>
-					<p>Designed by <b>Omnibus-Type, Hector Gatti</b></p>
+				<div className = "fontBodyna">
+					<h1>Nanum</h1>
+					<p>Designed by <b>Fontrix, Sandoll</b></p>
 					<br/>
 					<hr/>
 					<br/>
@@ -97,44 +95,36 @@ class Saira extends Component{
 			showFonts : [
 				{
 					value : "All work no play makes jack a dull boy" , 
-				 	family : "Saira Condensed",
+				 	family : "Nanum Gothic",
 				 	src : "Source Code Pro",
 				 	b1 : "<",
 				 	b2 : ">",
-				 	css : "Saira+Condensed"
+				 	css : "Nanum+Gothic"
 				},
 				{
 					value : "All work no play makes jack a dull boy" , 
-				 	family : "Saira",
+				 	family : "Nanum Gothic Coding",
 				 	src : "Source Code Pro", 
 				 	b1 : "<",
 				 	b2 : ">",
-				 	css : "Saira"
+				 	css : "Nanum+Gothic+Coding"
 				},
 				{
 					value : "All work no play makes jack a dull boy" , 
-				 	family : "Saira Extra Condensed",
+				 	family : "Nanum Pen Script",
 				 	src : "Source Code Pro",
 				 	b1 : "<",
 				 	b2 : ">",
-				 	css : "Saira+Extra+Condensed"
+				 	css : "Nanum+Pen+Script"
 				},
 				{
 					value : "All work no play makes jack a dull boy" , 
-				 	family : "Saira Semi Condensed",
+				 	family : "Nanum Brush Script",
 				 	src : "Source Code Pro",
 				 	b1 : "<",
 				 	b2 : ">",
-				 	css : "Saira+Semi+Condensed"
-				},
-				{
-					value : "All work no play makes jack a dull boy" , 
-				 	family : "Saira Stencil One",
-				 	src : "Source Code Pro",
-				 	b1 : "<",
-				 	b2 : ">",
-				 	css : "Saira+Stencil+One"
-				},
+				 	css : "Nanum+Brush+Script"
+				}
 			],
 			showMenu : false
 		}
@@ -190,4 +180,4 @@ class Saira extends Component{
 		}
 }
 
-export default Saira;
+export default Nanum;

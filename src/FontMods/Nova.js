@@ -11,27 +11,33 @@ import Card from 'react-bootstrap/Card'
 import Tabs from 'react-bootstrap/Tabs'
 import Tab from 'react-bootstrap/Tab'
 
-class Saira extends Component{
+class Nova extends Component{
 
 	state = {
 		showFonts : [
-			{value : "All work no play makes jack a dull boy" , family : "Saira Condensed" , css : "Saira+Condensed"},
-			{value : "All work no play makes jack a dull boy" , family : "Saira" , css : "Saira"},
-			{value : "All work no play makes jack a dull boy" , family : "Saira Extra Condensed" , css : "Saira+Extra+Condensed"},
-			{value : "All work no play makes jack a dull boy" , family : "Saira Semi Condensed" , css : "Saira+Semi+Condensed"},
-			{value : "All work no play makes jack a dull boy" , family : "Saira Stencil One" , css : "Saira+Stencil+One"}
-		],
+			{value : "All work no play makes jack a dull boy" , family : "Nova Square" , css : "Nova+Square"},
+			{value : "All work no play makes jack a dull boy" , family : "Nova Mono" , css : "Nova+Mono"},
+			{value : "All work no play makes jack a dull boy" , family : "Nova Round" , css : "Nova+Round"},
+			{value : "All work no play makes jack a dull boy" , family : "Nova Slim" , css : "Nova+Slim"},
+			{value : "All work no play makes jack a dull boy" , family : "Nova Flat" , css : "Nova+Flat"},
+			{value : "All work no play makes jack a dull boy" , family : "Nova Cut" , css : "Nova+Cut"},
+			{value : "All work no play makes jack a dull boy" , family : "Nova Oval" , css : "Nova+Oval"},
+			{value : "All work no play makes jack a dull boy" , family : "Nova Script" , css : "Nova+Script"},
+		],	
 		showMenu : false
 	}
 
 	handleInput = (e) => {
 		this.setState({
 			showFonts : [
-				{value : e.target.value , family : "Saira Condensed" , btn : "+ Select style"},
-				{value : e.target.value , family : "Saira" , btn : "+ Select style"},
-				{value : e.target.value , family : "Saira Extra Condensed" , btn : "+ Select style"},
-				{value : e.target.value , family : "Saira Semi Condensed" , btn : "+ Select style"},
-				{value : e.target.value , family : "Saira Stencil One" , btn : "+ Select style"}
+				{value : e.target.value , family : "Nova Square" , btn : "+ Select style"},
+				{value : e.target.value , family : "Nova Mono" , btn : "+ Select style"},
+				{value : e.target.value , family : "Nova Round" , btn : "+ Select style"},
+				{value : e.target.value , family : "Nova Slim" , btn : "+ Select style"},
+				{value : e.target.value , family : "Nova Flat" , btn : "+ Select style"},
+				{value : e.target.value , family : "Nova Cut" , btn : "+ Select style"},
+				{value : e.target.value , family : "Nova Oval" , btn : "+ Select style"},
+				{value : e.target.value , family : "Nova Script" , btn : "+ Select style"},
 			]
 		})
 	}
@@ -43,9 +49,9 @@ class Saira extends Component{
 	render(){
 		return(
 			<div className = "AllFonts">
-				<div className = "fontBodysai">
-					<h1>Saira</h1>
-					<p>Designed by <b>Omnibus-Type, Hector Gatti</b></p>
+				<div className = "fontBodyn">
+					<h1>Nova</h1>
+					<p>Designed by <b>Wojciech Kalinowski</b></p>
 					<br/>
 					<hr/>
 					<br/>
@@ -97,44 +103,68 @@ class Saira extends Component{
 			showFonts : [
 				{
 					value : "All work no play makes jack a dull boy" , 
-				 	family : "Saira Condensed",
+				 	family : "Nova Square",
 				 	src : "Source Code Pro",
 				 	b1 : "<",
 				 	b2 : ">",
-				 	css : "Saira+Condensed"
+				 	css : "Nova+Square"
 				},
 				{
 					value : "All work no play makes jack a dull boy" , 
-				 	family : "Saira",
+				 	family : "Nova Mono",
 				 	src : "Source Code Pro", 
 				 	b1 : "<",
 				 	b2 : ">",
-				 	css : "Saira"
+				 	css : "Nova+Mono"
 				},
 				{
 					value : "All work no play makes jack a dull boy" , 
-				 	family : "Saira Extra Condensed",
+				 	family : "Nova Round",
 				 	src : "Source Code Pro",
 				 	b1 : "<",
 				 	b2 : ">",
-				 	css : "Saira+Extra+Condensed"
+				 	css : "Nova+Round"
 				},
 				{
 					value : "All work no play makes jack a dull boy" , 
-				 	family : "Saira Semi Condensed",
+				 	family : "Nova Slim",
 				 	src : "Source Code Pro",
 				 	b1 : "<",
 				 	b2 : ">",
-				 	css : "Saira+Semi+Condensed"
+				 	css : "Nova+Slim"
 				},
 				{
 					value : "All work no play makes jack a dull boy" , 
-				 	family : "Saira Stencil One",
+				 	family : "Nova Flat",
 				 	src : "Source Code Pro",
 				 	b1 : "<",
 				 	b2 : ">",
-				 	css : "Saira+Stencil+One"
+				 	css : "Nova+Flat"
 				},
+				{
+					value : "All work no play makes jack a dull boy" , 
+				 	family : "Nova Cut",
+				 	src : "Source Code Pro",
+				 	b1 : "<",
+				 	b2 : ">",
+				 	css : "Nova+Cut"
+				},
+				{
+					value : "All work no play makes jack a dull boy" , 
+				 	family : "Nova Oval",
+				 	src : "Source Code Pro",
+				 	b1 : "<",
+				 	b2 : ">",
+				 	css : "Nova+Oval"
+				},
+				{
+					value : "All work no play makes jack a dull boy" , 
+				 	family : "Nova Slim",
+				 	src : "Source Code Pro",
+				 	b1 : "<",
+				 	b2 : ">",
+				 	css : "Nova+Slim"
+				}
 			],
 			showMenu : false
 		}
@@ -190,4 +220,4 @@ class Saira extends Component{
 		}
 }
 
-export default Saira;
+export default Nova;

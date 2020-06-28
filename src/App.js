@@ -25,6 +25,19 @@ import Yellowtail from './FontMods/Yellowtail'
 import FiraSans from './FontMods/FiraSans'
 import Oxygen from './FontMods/Oxygen'
 import Saira from './FontMods/Saira'
+import Source from './FontMods/Source'
+import IBMPlex from './FontMods/IBMPlex'
+import Libre from './FontMods/Libre'
+import Barlow from './FontMods/Barlow'
+import Archivo from './FontMods/Archivo'
+import DmSans from './FontMods/DM'
+import Cabin from './FontMods/Cabin'
+import Nanum from './FontMods/Nanum'
+import Encode from './FontMods/Encode'
+import Alegreya from './FontMods/Alegreya'
+import Bungee from './FontMods/Bungee'
+import Nova from './FontMods/Nova'
+import OpenSans from './FontMods/OpenSans'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 
 import './App.css';
@@ -49,7 +62,20 @@ class App extends React.Component{
       { value : "It is a pretty day" , font : "Yellowtail" , route : "/yellowtail" },
       { value : "It is a pretty day" , font : "Fira Sans" , route : "/firasans" },
       { value : "It is a pretty day" , font : "Oxygen" , route : "/oxygen" },
-      { value : "It is a pretty day" , font : "Saira" , route : "/saira" }
+      { value : "It is a pretty day" , font : "Saira" , route : "/saira" },
+      { value : "It is a pretty day" , font : "Source" , route : "/source" },
+      { value : "It is a pretty day" , font : "IBM Plex" , route : "/ibmplex" },
+      { value : "It is a pretty day" , font : "Libre Baskerville" , route : "/libre" },
+      { value : "It is a pretty day" , font : "Barlow" , route : "/barlow" },
+      { value : "It is a pretty day" , font : "Archivo" , route : "/archivo" },
+      { value : "It is a pretty day" , font : "DM" , route : "/dmsans" },
+      { value : "It is a pretty day" , font : "Cabin" , route : "/cabin" },
+      { value : "It is a pretty day" , font : "Nanum Gothic" , route : "/nanum" },
+      { value : "It is a pretty day" , font : "Encode Sans" , route : "/encode" },
+      { value : "It is a pretty day" , font : "Alegreya" , route : "/alegreya" },
+      { value : "It is a pretty day" , font : "Bungee" , route : "/bungee" },
+      { value : "It is a pretty day" , font : "Nova" , route : "/nova" },
+      { value : "It is a pretty day" , font : "Open Sans" , route : "/opensans" }
     ],
     searchFont : ""
   }
@@ -94,6 +120,19 @@ class App extends React.Component{
             <Route path = {this.state.fonts[15].route} component = {FiraSans}></Route>
             <Route path = {this.state.fonts[16].route} component = {Oxygen}></Route>
             <Route path = {this.state.fonts[17].route} component = {Saira}></Route>
+            <Route path = {this.state.fonts[18].route} component = {Source}></Route>
+            <Route path = {this.state.fonts[19].route} component = {IBMPlex}></Route>
+            <Route path = {this.state.fonts[20].route} component = {Libre}></Route>
+            <Route path = {this.state.fonts[21].route} component = {Barlow}></Route>
+            <Route path = {this.state.fonts[22].route} component = {Archivo}></Route>
+            <Route path = {this.state.fonts[23].route} component = {DmSans}></Route>
+            <Route path = {this.state.fonts[24].route} component = {Cabin}></Route>
+            <Route path = {this.state.fonts[25].route} component = {Nanum}></Route>
+            <Route path = {this.state.fonts[26].route} component = {Encode}></Route>
+            <Route path = {this.state.fonts[27].route} component = {Alegreya}></Route>
+            <Route path = {this.state.fonts[28].route} component = {Bungee}></Route>
+            <Route path = {this.state.fonts[29].route} component = {Nova}></Route>
+            <Route path = {this.state.fonts[30].route} component = {OpenSans}></Route>
           </Switch>
           <Footer/>
         </div>

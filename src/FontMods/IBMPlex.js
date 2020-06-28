@@ -11,15 +11,14 @@ import Card from 'react-bootstrap/Card'
 import Tabs from 'react-bootstrap/Tabs'
 import Tab from 'react-bootstrap/Tab'
 
-class Saira extends Component{
+class IBMPlex extends Component{
 
 	state = {
 		showFonts : [
-			{value : "All work no play makes jack a dull boy" , family : "Saira Condensed" , css : "Saira+Condensed"},
-			{value : "All work no play makes jack a dull boy" , family : "Saira" , css : "Saira"},
-			{value : "All work no play makes jack a dull boy" , family : "Saira Extra Condensed" , css : "Saira+Extra+Condensed"},
-			{value : "All work no play makes jack a dull boy" , family : "Saira Semi Condensed" , css : "Saira+Semi+Condensed"},
-			{value : "All work no play makes jack a dull boy" , family : "Saira Stencil One" , css : "Saira+Stencil+One"}
+			{value : "All work no play makes jack a dull boy" , family : "IBM Plex Sans" , css : "IBM+Plex+Sans"},
+			{value : "All work no play makes jack a dull boy" , family : "IBM Plex Serif" , css : "IBM+Plex+Serif"},
+			{value : "All work no play makes jack a dull boy" , family : "IBM Plex Sans Condensed" , css : "IBM+Plex+Sans+Condensed"},
+			{value : "All work no play makes jack a dull boy" , family : "IBM Plex Mono" , css : "IBM+Plex+Mono"}
 		],
 		showMenu : false
 	}
@@ -27,11 +26,10 @@ class Saira extends Component{
 	handleInput = (e) => {
 		this.setState({
 			showFonts : [
-				{value : e.target.value , family : "Saira Condensed" , btn : "+ Select style"},
-				{value : e.target.value , family : "Saira" , btn : "+ Select style"},
-				{value : e.target.value , family : "Saira Extra Condensed" , btn : "+ Select style"},
-				{value : e.target.value , family : "Saira Semi Condensed" , btn : "+ Select style"},
-				{value : e.target.value , family : "Saira Stencil One" , btn : "+ Select style"}
+				{value : e.target.value , family : "IBM Plex Sans" , btn : "+ Select style"},
+				{value : e.target.value , family : "IBM Plex Serif" , btn : "+ Select style"},
+				{value : e.target.value , family : "IBM Plex Sans Condensed" , btn : "+ Select style"},
+				{value : e.target.value , family : "IBM Plex Mono" , btn : "+ Select style"}
 			]
 		})
 	}
@@ -43,9 +41,9 @@ class Saira extends Component{
 	render(){
 		return(
 			<div className = "AllFonts">
-				<div className = "fontBodysai">
-					<h1>Saira</h1>
-					<p>Designed by <b>Omnibus-Type, Hector Gatti</b></p>
+				<div className = "fontBodyibm">
+					<h1>Source</h1>
+					<p>Designed by <b>Paul D. Hunt, Frank Grießhammer</b></p>
 					<br/>
 					<hr/>
 					<br/>
@@ -97,44 +95,36 @@ class Saira extends Component{
 			showFonts : [
 				{
 					value : "All work no play makes jack a dull boy" , 
-				 	family : "Saira Condensed",
+				 	family : "IBM Plex Sans",
 				 	src : "Source Code Pro",
 				 	b1 : "<",
 				 	b2 : ">",
-				 	css : "Saira+Condensed"
+				 	css : "IBM+Plex+Sans"
 				},
 				{
 					value : "All work no play makes jack a dull boy" , 
-				 	family : "Saira",
+				 	family : "IBM Plex Serif",
 				 	src : "Source Code Pro", 
 				 	b1 : "<",
 				 	b2 : ">",
-				 	css : "Saira"
+				 	css : "IBM+Plex+Serif"
 				},
 				{
 					value : "All work no play makes jack a dull boy" , 
-				 	family : "Saira Extra Condensed",
+				 	family : "IBM Plex Sans Condensed",
 				 	src : "Source Code Pro",
 				 	b1 : "<",
 				 	b2 : ">",
-				 	css : "Saira+Extra+Condensed"
+				 	css : "IBM+Plex+Sans+Condensed"
 				},
 				{
 					value : "All work no play makes jack a dull boy" , 
-				 	family : "Saira Semi Condensed",
+				 	family : "IBM Plex Mono",
 				 	src : "Source Code Pro",
 				 	b1 : "<",
 				 	b2 : ">",
-				 	css : "Saira+Semi+Condensed"
-				},
-				{
-					value : "All work no play makes jack a dull boy" , 
-				 	family : "Saira Stencil One",
-				 	src : "Source Code Pro",
-				 	b1 : "<",
-				 	b2 : ">",
-				 	css : "Saira+Stencil+One"
-				},
+				 	css : "IBM+Plex+Mono"
+				}
 			],
 			showMenu : false
 		}
@@ -190,4 +180,4 @@ class Saira extends Component{
 		}
 }
 
-export default Saira;
+export default IBMPlex;

@@ -11,27 +11,25 @@ import Card from 'react-bootstrap/Card'
 import Tabs from 'react-bootstrap/Tabs'
 import Tab from 'react-bootstrap/Tab'
 
-class Saira extends Component{
+class Alegreya extends Component{
 
 	state = {
 		showFonts : [
-			{value : "All work no play makes jack a dull boy" , family : "Saira Condensed" , css : "Saira+Condensed"},
-			{value : "All work no play makes jack a dull boy" , family : "Saira" , css : "Saira"},
-			{value : "All work no play makes jack a dull boy" , family : "Saira Extra Condensed" , css : "Saira+Extra+Condensed"},
-			{value : "All work no play makes jack a dull boy" , family : "Saira Semi Condensed" , css : "Saira+Semi+Condensed"},
-			{value : "All work no play makes jack a dull boy" , family : "Saira Stencil One" , css : "Saira+Stencil+One"}
-		],
+			{value : "All work no play makes jack a dull boy" , family : "Alegreya" , css : "Alegreya"},
+			{value : "All work no play makes jack a dull boy" , family : "Alegreya Sans" , css : "Alegreya+Sans"},
+			{value : "All work no play makes jack a dull boy" , family : "Alegreya Sans SC" , css : "Alegreya+Sans+SC"},
+			{value : "All work no play makes jack a dull boy" , family : "Alegreya SC" , css : "Alegreya+SC"}
+		],	
 		showMenu : false
 	}
 
 	handleInput = (e) => {
 		this.setState({
 			showFonts : [
-				{value : e.target.value , family : "Saira Condensed" , btn : "+ Select style"},
-				{value : e.target.value , family : "Saira" , btn : "+ Select style"},
-				{value : e.target.value , family : "Saira Extra Condensed" , btn : "+ Select style"},
-				{value : e.target.value , family : "Saira Semi Condensed" , btn : "+ Select style"},
-				{value : e.target.value , family : "Saira Stencil One" , btn : "+ Select style"}
+				{value : e.target.value , family : "Alegreya" , btn : "+ Select style"},
+				{value : e.target.value , family : "Alegreya Sans" , btn : "+ Select style"},
+				{value : e.target.value , family : "Alegreya Sans SC" , btn : "+ Select style"},
+				{value : e.target.value , family : "Alegreya SC" , btn : "+ Select style"},
 			]
 		})
 	}
@@ -43,9 +41,9 @@ class Saira extends Component{
 	render(){
 		return(
 			<div className = "AllFonts">
-				<div className = "fontBodysai">
-					<h1>Saira</h1>
-					<p>Designed by <b>Omnibus-Type, Hector Gatti</b></p>
+				<div className = "fontBodyal">
+					<h1>Alegreya</h1>
+					<p>Designed by <b>Impallari Type</b></p>
 					<br/>
 					<hr/>
 					<br/>
@@ -97,44 +95,36 @@ class Saira extends Component{
 			showFonts : [
 				{
 					value : "All work no play makes jack a dull boy" , 
-				 	family : "Saira Condensed",
+				 	family : "Alegreya",
 				 	src : "Source Code Pro",
 				 	b1 : "<",
 				 	b2 : ">",
-				 	css : "Saira+Condensed"
+				 	css : "Alegreya"
 				},
 				{
 					value : "All work no play makes jack a dull boy" , 
-				 	family : "Saira",
+				 	family : "Alegreya Sans",
 				 	src : "Source Code Pro", 
 				 	b1 : "<",
 				 	b2 : ">",
-				 	css : "Saira"
+				 	css : "Alegreya+Sans"
 				},
 				{
 					value : "All work no play makes jack a dull boy" , 
-				 	family : "Saira Extra Condensed",
+				 	family : "Alegreya Sans SC",
 				 	src : "Source Code Pro",
 				 	b1 : "<",
 				 	b2 : ">",
-				 	css : "Saira+Extra+Condensed"
+				 	css : "Alegreya+Sans+SC"
 				},
 				{
 					value : "All work no play makes jack a dull boy" , 
-				 	family : "Saira Semi Condensed",
+				 	family : "Alegreya SC",
 				 	src : "Source Code Pro",
 				 	b1 : "<",
 				 	b2 : ">",
-				 	css : "Saira+Semi+Condensed"
-				},
-				{
-					value : "All work no play makes jack a dull boy" , 
-				 	family : "Saira Stencil One",
-				 	src : "Source Code Pro",
-				 	b1 : "<",
-				 	b2 : ">",
-				 	css : "Saira+Stencil+One"
-				},
+				 	css : "Alegreya+SC"
+				}
 			],
 			showMenu : false
 		}
@@ -190,4 +180,4 @@ class Saira extends Component{
 		}
 }
 
-export default Saira;
+export default Alegreya;

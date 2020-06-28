@@ -11,27 +11,27 @@ import Card from 'react-bootstrap/Card'
 import Tabs from 'react-bootstrap/Tabs'
 import Tab from 'react-bootstrap/Tab'
 
-class Saira extends Component{
+class Encode extends Component{
 
 	state = {
 		showFonts : [
-			{value : "All work no play makes jack a dull boy" , family : "Saira Condensed" , css : "Saira+Condensed"},
-			{value : "All work no play makes jack a dull boy" , family : "Saira" , css : "Saira"},
-			{value : "All work no play makes jack a dull boy" , family : "Saira Extra Condensed" , css : "Saira+Extra+Condensed"},
-			{value : "All work no play makes jack a dull boy" , family : "Saira Semi Condensed" , css : "Saira+Semi+Condensed"},
-			{value : "All work no play makes jack a dull boy" , family : "Saira Stencil One" , css : "Saira+Stencil+One"}
-		],
+			{value : "All work no play makes jack a dull boy" , family : "Encode Sans" , css : "Encode+Sans"},
+			{value : "All work no play makes jack a dull boy" , family : "Encode Sans Condensed" , css : "Encode+Sans+Condensed"},
+			{value : "All work no play makes jack a dull boy" , family : "Encode Sans Semi Condensed" , css : "Encoe+Sans+Semi+Condensed"},
+			{value : "All work no play makes jack a dull boy" , family : "Encode Sans Expanded" , css : "Encode+Sans+Expanded"},
+			{value : "All work no play makes jack a dull boy" , family : "Encode Sans Semi Expanded" , css : "Encode+Sans+Semi+Expanded"},
+		],	
 		showMenu : false
 	}
 
 	handleInput = (e) => {
 		this.setState({
 			showFonts : [
-				{value : e.target.value , family : "Saira Condensed" , btn : "+ Select style"},
-				{value : e.target.value , family : "Saira" , btn : "+ Select style"},
-				{value : e.target.value , family : "Saira Extra Condensed" , btn : "+ Select style"},
-				{value : e.target.value , family : "Saira Semi Condensed" , btn : "+ Select style"},
-				{value : e.target.value , family : "Saira Stencil One" , btn : "+ Select style"}
+				{value : e.target.value , family : "Encode Sans" , btn : "+ Select style"},
+				{value : e.target.value , family : "Encode Sans Condensed" , btn : "+ Select style"},
+				{value : e.target.value , family : "Encode Sans Semi Condensed" , btn : "+ Select style"},
+				{value : e.target.value , family : "Encode Sans Expanded" , btn : "+ Select style"},
+				{value : e.target.value , family : "Encode Sans Semi Expanded" , btn : "+ Select style"}
 			]
 		})
 	}
@@ -43,9 +43,9 @@ class Saira extends Component{
 	render(){
 		return(
 			<div className = "AllFonts">
-				<div className = "fontBodysai">
-					<h1>Saira</h1>
-					<p>Designed by <b>Omnibus-Type, Hector Gatti</b></p>
+				<div className = "fontBodyen">
+					<h1>Encode</h1>
+					<p>Designed by <b>Various Developers</b></p>
 					<br/>
 					<hr/>
 					<br/>
@@ -97,43 +97,43 @@ class Saira extends Component{
 			showFonts : [
 				{
 					value : "All work no play makes jack a dull boy" , 
-				 	family : "Saira Condensed",
+				 	family : "Encode Sans",
 				 	src : "Source Code Pro",
 				 	b1 : "<",
 				 	b2 : ">",
-				 	css : "Saira+Condensed"
+				 	css : "Encode+Sans"
 				},
 				{
 					value : "All work no play makes jack a dull boy" , 
-				 	family : "Saira",
+				 	family : "Encode Sans Condensed",
 				 	src : "Source Code Pro", 
 				 	b1 : "<",
 				 	b2 : ">",
-				 	css : "Saira"
+				 	css : "Encode+Sans+Condensed"
 				},
 				{
 					value : "All work no play makes jack a dull boy" , 
-				 	family : "Saira Extra Condensed",
+				 	family : "Encode Sans Semi Condensed",
 				 	src : "Source Code Pro",
 				 	b1 : "<",
 				 	b2 : ">",
-				 	css : "Saira+Extra+Condensed"
+				 	css : "Encode+Sans+Semi+Condensed"
 				},
 				{
 					value : "All work no play makes jack a dull boy" , 
-				 	family : "Saira Semi Condensed",
+				 	family : "Encode Sans Expanded",
 				 	src : "Source Code Pro",
 				 	b1 : "<",
 				 	b2 : ">",
-				 	css : "Saira+Semi+Condensed"
+				 	css : "Encode+Sans+Expanded"
 				},
 				{
 					value : "All work no play makes jack a dull boy" , 
-				 	family : "Saira Stencil One",
+				 	family : "Encode Sans Semi Expanded",
 				 	src : "Source Code Pro",
 				 	b1 : "<",
 				 	b2 : ">",
-				 	css : "Saira+Stencil+One"
+				 	css : "Encode+Sans+Semi+Expanded"
 				},
 			],
 			showMenu : false
@@ -190,4 +190,4 @@ class Saira extends Component{
 		}
 }
 
-export default Saira;
+export default Encode;
