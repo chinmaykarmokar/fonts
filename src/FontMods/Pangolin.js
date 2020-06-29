@@ -35,7 +35,7 @@ class Pangolin extends Component{
 	render(){
 		return(
 			<div className = "AllFonts">
-				<div className = "fontBody">
+				<div className = "fontBodypa">
 					<h1>Pangolin</h1>
 					<p>Designed by <b>Kevin Burke</b></p>
 					<br/>
@@ -45,6 +45,8 @@ class Pangolin extends Component{
 				<br/>
 				<div className = "f_work">	
 					<h1>Styles</h1>
+					<br/>
+					<label>Type in!</label>
 					<br/>
 					<input className = "preview" type = "text" onChange = {this.handleInput} placeholder = "See font preview"/>
 					<br/>

@@ -15,6 +15,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
 
 /*Roboto Fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
@@ -496,6 +497,69 @@ button:focus {
 	font-family: Ubuntu;
 }
 
+.fontBodyla{
+	padding: 30px;
+	background-image: linear-gradient(to right, #fff , #999966);
+	text-align: left;
+	font-family: Ubuntu;
+}
+
+.fontBodyno{
+	padding: 30px;
+	background-image: linear-gradient(to right, #fff , #cc00cc);
+	text-align: left;
+	font-family: Ubuntu;
+}
+
+.fontBodypa{
+	padding: 30px;
+	background-image: linear-gradient(to right, #fff , #3366cc);
+	text-align: left;
+	font-family: Ubuntu;
+}
+
+.fontBodypo{
+	padding: 30px;
+	background-image: linear-gradient(to right, #fff , #cccc00);
+	text-align: left;
+	font-family: Ubuntu;
+}
+
+.fontBodyte{
+	padding: 30px;
+	background-image: linear-gradient(to right, #fff , #999966);
+	text-align: left;
+	font-family: Ubuntu;
+}
+
+.fontBodysri{
+	padding: 30px;
+	background-image: linear-gradient(to right, #fff , #999999);
+	text-align: left;
+	font-family: Ubuntu;
+}
+
+.fontBodymon{
+	padding: 30px;
+	background-image: linear-gradient(to right, #fff , #4dffc3);
+	text-align: left;
+	font-family: Ubuntu;
+}
+
+.fontBodynic{
+	padding: 30px;
+	background-image: linear-gradient(to right, #fff , #ff3399);
+	text-align: left;
+	font-family: Ubuntu;
+}
+
+.fontBodyrob{
+	padding: 30px;
+	background-image: linear-gradient(to right, #fff , #d9d9d9);
+	text-align: left;
+	font-family: Ubuntu;
+}
+
 .f_work{
 	text-align: left;
 	padding: 30px;
@@ -513,4 +577,27 @@ button:hover{
 	border:none;
 	background-color: #e6e6e6;
 	color: blue;
+}
+
+.search_icon{
+	font-size: 32px;
+	padding: 5px;
+	margin-right: 5px;
+	margin-top: 7px;
+}
+
+.foots{
+	background-image: linear-gradient(to bottom right, #f0f5f5, #cc99ff);
+	color: #000;
+	padding: 30px;
+	text-align: left;
+	border: none;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	box-shadow: 0px -5px 5px -5px rgba(0,0,0,0.3);
+}
+
+.bio{
+	padding: 10px;
+	font-size: 18px;
 }

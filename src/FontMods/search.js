@@ -9,16 +9,20 @@ import Card from 'react-bootstrap/Card'
 import Cards from './Cards'
 import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
+import { FaSearch } from "react-icons/fa";
+import { Link } from 'react-router-dom'
 
 const search = (props) => {
 
 	return(
 		<div>
-		 <Navbar className = "search" expand="lg">
-		   <Navbar.Brand href="#home">My Fonts</Navbar.Brand>
+		 <Navbar fixed = "top" className = "search" expand="lg">
+		   <Navbar.Brand href="#">
+		   		<Link to = "/" style = {{fontFamily:"Russo One", color:"#000", textDecoration:"none"}}>Fonts On</Link>
+		   </Navbar.Brand>
 		   <Navbar.Toggle aria-controls="basic-navbar-nav" className = "toggs"/>
 		   <Navbar.Collapse id="basic-navbar-nav" className = "justify-content-end">
-		    	<input onChange = {props.handleInput} type = "text" className = "input_field" placeholder = "Search for a font"/>
+		    	<FaSearch className = "search_icon"/><input onChange = {props.handleInput} type = "text" className = "input_field" placeholder = "Search for a font"/>
 		   </Navbar.Collapse>
 		 </Navbar>
 		</div>

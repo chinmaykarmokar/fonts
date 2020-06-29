@@ -8,12 +8,12 @@ import Container from 'react-bootstrap/Container'
 import Card from 'react-bootstrap/Card'
 import './Fonts.css';
 import { Link } from 'react-router-dom'
-
+import Alert from 'react-bootstrap/Alert'
 
 const cards = (props) => {
 
 	return(
-	<div>
+	<div>	
 		<Container>
 			<Row>
 				<Col md = {4}>
@@ -21,10 +21,10 @@ const cards = (props) => {
 						<Card className = "Info">
 					  		<Card.Body>
 					    		<Card.Title><b>Developer</b></Card.Title>
-					    		<Card.Subtitle className="mb-2 text-muted names"><i>Chinmay</i></Card.Subtitle>
+					    		<Card.Subtitle className="mb-2 text-muted names"><i>{props.developer}</i></Card.Subtitle>
 					    		<hr/>
 					    		<Card.Text>
-					     			18 styles 
+					     			{props.style} 
 					    		</Card.Text>
 					  		</Card.Body>
 						</Card>

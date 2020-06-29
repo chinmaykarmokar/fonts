@@ -39,7 +39,7 @@ class Montserrat extends Component{
 	render(){
 		return(
 			<div className = "AllFonts">
-				<div className = "fontBody">
+				<div className = "fontBodymon">
 					<h1>Montserrat</h1>
 					<p>Designed by <b>Various Developers</b></p>
 					<br/>
@@ -49,6 +49,8 @@ class Montserrat extends Component{
 				<br/>
 				<div className = "f_work">	
 					<h1>Styles</h1>
+					<br/>
+					<label>Type in!</label>
 					<br/>
 					<input className = "preview" type = "text" onChange = {this.handleInput} placeholder = "See font preview"/>
 					<br/>

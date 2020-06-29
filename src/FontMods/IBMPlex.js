@@ -42,8 +42,8 @@ class IBMPlex extends Component{
 		return(
 			<div className = "AllFonts">
 				<div className = "fontBodyibm">
-					<h1>Source</h1>
-					<p>Designed by <b>Paul D. Hunt, Frank Grießhammer</b></p>
+					<h1>IBM Plex</h1>
+					<p>Designed by <b>Mike Abbink, Bold Monday</b></p>
 					<br/>
 					<hr/>
 					<br/>
@@ -51,6 +51,8 @@ class IBMPlex extends Component{
 				<br/>
 				<div className = "f_work">	
 					<h1>Styles</h1>
+					<br/>
+					<label>Type in!</label>
 					<br/>
 					<input className = "preview" type = "text" onChange = {this.handleInput} placeholder = "See font preview"/>
 					<br/>

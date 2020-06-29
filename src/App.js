@@ -7,6 +7,7 @@ import Card from 'react-bootstrap/Card'
 import CardDisplay from './FontMods/Card_ex'
 import Search from './FontMods/search'
 import Footer from './FontMods/footer'
+import AlertIt from './FontMods/Alert'
 import Cookie from './FontMods/Cookie'
 import Roboto from './FontMods/Roboto'
 import Niconne from './FontMods/Niconne'
@@ -45,37 +46,37 @@ import './App.css';
 class App extends React.Component{
   state = {
     fonts : [
-      { value : "It is a pretty day" , font : "Cookie" , route : "/cookie" },
-      { value : "It is a pretty day" , font : "Roboto" , route : "/roboto" },
-      { value : "It is a pretty day" , font : "Niconne" , route : "/niconne" },
-      { value : "It is a pretty day" , font : "Montserrat" , route : "/montserrat" },
-      { value : "It is a pretty day" , font : "Sriracha" , route : "/sriracha" },
-      { value : "It is a pretty day" , font : "Teko" , route : "/teko" },
-      { value : "It is a pretty day" , font : "Poppins" , route : "/poppins" },
-      { value : "It is a pretty day" , font : "Pangolin" , route : "/pangolin" },
-      { value : "It is a pretty day" , font : "Noto" , route : "/noto" },
-      { value : "It is a pretty day" , font : "Lato" , route : "/lato" },
-      { value : "It is a pretty day" , font : "Ubuntu" , route : "/ubuntu" },
-      { value : "It is a pretty day" , font : "PT Sans, PT Serif" , route : "/ptsans" },
-      { value : "It is a pretty day" , font : "Notable" , route : "/notable" },
-      { value : "It is a pretty day" , font : "Piedra" , route : "/piedra" },
-      { value : "It is a pretty day" , font : "Yellowtail" , route : "/yellowtail" },
-      { value : "It is a pretty day" , font : "Fira Sans" , route : "/firasans" },
-      { value : "It is a pretty day" , font : "Oxygen" , route : "/oxygen" },
-      { value : "It is a pretty day" , font : "Saira" , route : "/saira" },
-      { value : "It is a pretty day" , font : "Source" , route : "/source" },
-      { value : "It is a pretty day" , font : "IBM Plex" , route : "/ibmplex" },
-      { value : "It is a pretty day" , font : "Libre Baskerville" , route : "/libre" },
-      { value : "It is a pretty day" , font : "Barlow" , route : "/barlow" },
-      { value : "It is a pretty day" , font : "Archivo" , route : "/archivo" },
-      { value : "It is a pretty day" , font : "DM" , route : "/dmsans" },
-      { value : "It is a pretty day" , font : "Cabin" , route : "/cabin" },
-      { value : "It is a pretty day" , font : "Nanum Gothic" , route : "/nanum" },
-      { value : "It is a pretty day" , font : "Encode Sans" , route : "/encode" },
-      { value : "It is a pretty day" , font : "Alegreya" , route : "/alegreya" },
-      { value : "It is a pretty day" , font : "Bungee" , route : "/bungee" },
-      { value : "It is a pretty day" , font : "Nova" , route : "/nova" },
-      { value : "It is a pretty day" , font : "Open Sans" , route : "/opensans" }
+      { value : "It is a pretty day" , font : "Cookie" , route : "/cookie" , developer : "Ania Kruk" , style : "1 style" },
+      { value : "It is a pretty day" , font : "Roboto" , route : "/roboto" , developer : "Christian Robertson" , style : "4 styles" },
+      { value : "It is a pretty day" , font : "Niconne" , route : "/niconne" , developer : "Vernon Adams" , style : "1 style" },
+      { value : "It is a pretty day" , font : "Montserrat" , route : "/montserrat" , developer : "Various Developers" , style : "3 styles" },
+      { value : "It is a pretty day" , font : "Sriracha" , route : "/sriracha" , developer : "Cadson Demak" , style : "1 style" },
+      { value : "It is a pretty day" , font : "Teko" , route : "/teko" , developer : "Indian Type Foundry" , style : "1 style" },
+      { value : "It is a pretty day" , font : "Poppins" , route : "/poppins" , developer : "Indian Type Foundry" , style : "1 style" },
+      { value : "It is a pretty day" , font : "Pangolin" , route : "/pangolin" , developer : "Kevin Burke" , style : "1 style" },
+      { value : "It is a pretty day" , font : "Noto" , route : "/noto" , developer : "Google" , style : "11 styles" },
+      { value : "It is a pretty day" , font : "Lato" , route : "/lato" , developer : "Łukasz Dziedzic" , style : "1 style" },
+      { value : "It is a pretty day" , font : "Ubuntu" , route : "/ubuntu" , developer : "Dalton Maag" , style : "3 styles" },
+      { value : "It is a pretty day" , font : "PT Sans, PT Serif" , route : "/ptsans" , developer : "ParaType" , style : "5 styles" },
+      { value : "It is a pretty day" , font : "Notable" , route : "/notable" , developer : "Various Developers" , style : "1 style" },
+      { value : "It is a pretty day" , font : "Piedra" , route : "/piedra" , developer : "Sudtipos" , style : "1 style" },
+      { value : "It is a pretty day" , font : "Yellowtail" , route : "/yellowtail" , developer : "Astigmatic" , style : "1 style" },
+      { value : "It is a pretty day" , font : "Fira Sans" , route : "/firasans" , developer : "Carrois Apostrophe" , style : "5 styles" },
+      { value : "It is a pretty day" , font : "Oxygen" , route : "/oxygen" , developer : "Vernon Adams" , style : "2 styles" },
+      { value : "It is a pretty day" , font : "Saira" , route : "/saira" , developer : "Omnibus-Type, Hector Gatti" , style : "5 styles" },
+      { value : "It is a pretty day" , font : "Source" , route : "/source" , developer : "Paul D. Hunt, Frank Grießhammer" , style : "3 styles" },
+      { value : "It is a pretty day" , font : "IBM Plex" , route : "/ibmplex" , developer : "Mike Abbink, Bold Monday" , style : "4 styles" },
+      { value : "It is a pretty day" , font : "Libre Baskerville" , route : "/libre" , developer : "Impallari Type" , style : "4 styles" },
+      { value : "It is a pretty day" , font : "Barlow" , route : "/barlow" , developer : "Jeremy Tribby" , style : "3 styles" },
+      { value : "It is a pretty day" , font : "Archivo" , route : "/archivo" , developer : "Omnibus-Type" , style : "3 styles" },
+      { value : "It is a pretty day" , font : "DM" , route : "/dmsans" , developer : "Colophon Foundry, Jonny Pinhorn" , style : "4 styles" },
+      { value : "It is a pretty day" , font : "Cabin" , route : "/cabin" , developer : "Impallari Type" , style : "3 styles" },
+      { value : "It is a pretty day" , font : "Nanum Gothic" , route : "/nanum" , developer : "Fontrix, Sandoll" , style : "4 styles" },
+      { value : "It is a pretty day" , font : "Encode Sans" , route : "/encode" , developer : "Various Developers" , style : "5 styles" },
+      { value : "It is a pretty day" , font : "Alegreya" , route : "/alegreya" , developer : "Impallari Type" , style : "4 styles" },
+      { value : "It is a pretty day" , font : "Bungee" , route : "/bungee" , developer : "David Jonathan Ross" , style : "5 styles" },
+      { value : "It is a pretty day" , font : "Nova" , route : "/nova" , developer : "Wojciech Kalinowski" , style : "8 styles" },
+      { value : "It is a pretty day" , font : "Open Sans" , route : "/opensans" , developer : "Google" , style : "2 styles" }
     ],
     searchFont : ""
   }
@@ -97,6 +98,7 @@ class App extends React.Component{
           <Search handleInput = {this.handleInput}/>
           <Switch>
             <Route path = "/" exact component = {CardDisplay}>
+              <AlertIt/>
                 <CardDisplay 
                   filteredFont = {filterFont}
                 />
@@ -134,6 +136,7 @@ class App extends React.Component{
             <Route path = {this.state.fonts[29].route} component = {Nova}></Route>
             <Route path = {this.state.fonts[30].route} component = {OpenSans}></Route>
           </Switch>
+          <br/>
           <Footer/>
         </div>
       </Router>

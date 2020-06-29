@@ -10,6 +10,7 @@ import Button from 'react-bootstrap/Button'
 import Card from 'react-bootstrap/Card'
 import Tabs from 'react-bootstrap/Tabs'
 import Tab from 'react-bootstrap/Tab'
+import { FaList } from "react-icons/fa";
 
 class Cookie extends Component{
 	state = {
@@ -45,6 +46,8 @@ class Cookie extends Component{
 				<br/>
 				<div className = "f_work">	
 					<h1>Styles</h1>
+					<br/>
+					<label>Type in!</label>
 					<br/>
 					<input className = "preview" type = "text" onChange = {this.handleInput} placeholder = "See font preview"/>
 					<br/>

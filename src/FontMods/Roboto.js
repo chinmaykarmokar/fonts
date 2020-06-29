@@ -41,7 +41,7 @@ class Roboto extends Component{
 
 			return(
 				<div className = "AllFonts">
-					<div className = "fontBody">
+					<div className = "fontBodyrob">
 						<h1>Roboto</h1>
 						<p>Designed by <b>Christian Robertson</b></p>
 						<br/>
@@ -51,6 +51,8 @@ class Roboto extends Component{
 					<br/>
 					<div className = "f_work">	
 						<h1>Styles</h1>
+						<br/>
+						<label>Type in!</label>
 						<br/>
 						<input className = "preview" type = "text" onChange = {this.handleInput} placeholder = "See font preview"/>
 						<br/>

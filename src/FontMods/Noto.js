@@ -55,7 +55,7 @@ class Noto extends Component{
 	render(){
 		return(
 			<div className = "AllFonts">
-				<div className = "fontBody">
+				<div className = "fontBodyno">
 					<h1>Noto</h1>
 					<p>Designed by <b>Google</b></p>
 					<br/>
@@ -65,6 +65,8 @@ class Noto extends Component{
 				<br/>
 				<div className = "f_work">	
 					<h1>Styles</h1>
+					<br/>
+					<label>Type in!</label>
 					<br/>
 					<input className = "preview" type = "text" onChange = {this.handleInput} placeholder = "See font preview"/>
 					<br/>
