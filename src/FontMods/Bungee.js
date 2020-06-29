@@ -157,7 +157,7 @@ class Bungee extends Component{
 										    	<Card.Subtitle className="mb-2 text-muted names"></Card.Subtitle>
 										    		<hr/>
 										    	<Card.Text className = "rends">
-										     		 <Tabs defaultActiveKey="home" id="uncontrolled-tab-example">
+										     		 <Tabs defaultActiveKey="home" id="uncontrolled-tab-example" fluid>
 										     		   <Tab eventKey="home" title="<link>">
 										     		   	<br/>
 										     		     <p>
