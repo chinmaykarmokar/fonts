@@ -39,7 +39,7 @@ import Alegreya from './FontMods/Alegreya'
 import Bungee from './FontMods/Bungee'
 import Nova from './FontMods/Nova'
 import OpenSans from './FontMods/OpenSans'
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import { HashRouter, Switch, Route } from 'react-router-dom'
 
 import './App.css';
 
@@ -93,7 +93,7 @@ class App extends React.Component{
     });
 
     return (
-      <Router>
+      <HashRouter basename = "/">
         <div className = "App">
           <Search handleInput = {this.handleInput}/>
           <Switch>
@@ -139,7 +139,7 @@ class App extends React.Component{
           <br/>
           <Footer/>
         </div>
-      </Router>
+      </HashRouter>
     )  
   }
 }
