@@ -14,7 +14,7 @@ class AlertIt extends React.Component{
 	render(){
 		return(
 			<Alert variant="success" style = {{fontSize : "12px"}}>
-			    Fonts On is a Google Fonts prototype created for the sole purpose of learning. All rights belong completely with Google.
+			    Fonts Bay is a Google Fonts prototype created for the sole purpose of learning. All rights belong completely with Google.
 			</Alert>
 		)
 	}

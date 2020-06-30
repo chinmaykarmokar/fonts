@@ -26,10 +26,10 @@ const footer = (props) => {
 				<Row>
 					<Col md = {6}>
 						<h6 className = "bio">
-							Fonts On is a Google Fonts prototype created for the sole purpose of learning.
+							Fonts Bay is a Google Fonts prototype created for the sole purpose of learning.
 							<br/>
 							<br/>
-							Fonts On uses 10.08 % of the families available on Google Fonts.
+							Fonts Bay uses 10.08 % of the families available on Google Fonts.
 							<br/>
 							Choose from a range of 100 different styles and enhance your website.
 							<br/>
