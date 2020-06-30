@@ -13,13 +13,15 @@ import { FaGlobe } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
+import { FaReact } from "react-icons/fa";
+import { FaGoogle } from "react-icons/fa";
 
 const footer = (props) => {
 
 	return(
 		<div className = "foots">
 			<Container fluid>
-				<h3>About <h3 style = {{fontFamily:"Russo One"}}>Fonts On</h3></h3>
+				<h3>About <h3 style = {{fontFamily:"Pacifico"}}>Fonts Bay</h3></h3>
 				<hr/>
 				<Row>
 					<Col md = {6}>
@@ -32,12 +34,16 @@ const footer = (props) => {
 							Choose from a range of 100 different styles and enhance your website.
 							<br/>
 							<br/>
-							This website is created with ReactJS.
+							This website is created with <FaReact/> ReactJS.
+							<br/>
+							<br/>
+							All rights completely belong with <FaGoogle style = {{padding:"5px", fontSize:"25px"}}/>, 2020.
 						</h6>
 					</Col>
 					<br/>
 					<br/>
-					<Col md = {6}>
+					<Col md = {1}></Col>
+					<Col md = {5}>
 						<h4>Connect with me</h4>
 						<hr/>
 						<FaGlobe style = {{fontSize:"40px",padding:"10px"}} className="d-inline float"/>

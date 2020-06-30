@@ -86,6 +86,10 @@ class App extends React.Component{
     this.setState({ searchFont : event.target.value })
   }
 
+  componentDidMount(){
+        document.title = "Fonts Bay"
+    }
+
   render(){
 
     let filterFont = this.state.fonts.filter((data) => {

@@ -18,7 +18,7 @@ const search = (props) => {
 		<div>
 		 <Navbar fixed = "top" className = "search" expand="lg">
 		   <Navbar.Brand href="#">
-		   		<Link to = "/" style = {{fontFamily:"Russo One", color:"#000", textDecoration:"none"}}>Fonts On</Link>
+		   		<Link to = "/" style = {{fontFamily:"Pacifico", color:"#000", textDecoration:"none"}}>Fonts Bay</Link>
 		   </Navbar.Brand>
 		   <Navbar.Toggle aria-controls="basic-navbar-nav" className = "toggs"/>
 		   <Navbar.Collapse id="basic-navbar-nav" className = "justify-content-end">
