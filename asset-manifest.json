@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/fonts/static/css/main.05fa15da.chunk.css",
-    "main.js": "/fonts/static/js/main.3783f491.chunk.js",
-    "main.js.map": "/fonts/static/js/main.3783f491.chunk.js.map",
+    "main.js": "/fonts/static/js/main.8cc8efa5.chunk.js",
+    "main.js.map": "/fonts/static/js/main.8cc8efa5.chunk.js.map",
     "runtime-main.js": "/fonts/static/js/runtime-main.4ea7fe90.js",
     "runtime-main.js.map": "/fonts/static/js/runtime-main.4ea7fe90.js.map",
     "static/css/2.af3c1da9.chunk.css": "/fonts/static/css/2.af3c1da9.chunk.css",
     "static/js/2.74362c1c.chunk.js": "/fonts/static/js/2.74362c1c.chunk.js",
     "static/js/2.74362c1c.chunk.js.map": "/fonts/static/js/2.74362c1c.chunk.js.map",
     "index.html": "/fonts/index.html",
-    "precache-manifest.400f592aa52eb0ac87c76b57bbbac55a.js": "/fonts/precache-manifest.400f592aa52eb0ac87c76b57bbbac55a.js",
+    "precache-manifest.2bd297ef6ff3de51667eda1cbc4cc1fa.js": "/fonts/precache-manifest.2bd297ef6ff3de51667eda1cbc4cc1fa.js",
     "service-worker.js": "/fonts/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/fonts/static/css/2.af3c1da9.chunk.css.map",
     "static/css/main.05fa15da.chunk.css.map": "/fonts/static/css/main.05fa15da.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.af3c1da9.chunk.css",
     "static/js/2.74362c1c.chunk.js",
     "static/css/main.05fa15da.chunk.css",
-    "static/js/main.3783f491.chunk.js"
+    "static/js/main.8cc8efa5.chunk.js"
   ]
 }
